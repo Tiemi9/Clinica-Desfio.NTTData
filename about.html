@@ -1,27 +1,28 @@
-<header>
-    <div style="background-color: rgba(142, 238, 238, 0.651); border-radius: 10px; padding: 20px; max-width: 100%; display: flex; justify-content: space-between;">
+<header style="display: flex;">
+    <img src="./assets/logo.jpg" alt="Logo da clinica, cachorro e gato verdes" style="width: 190px; height: 150px; border-radius: 50%;margin: 10px 10px 0 10px" >
+    <div style="background-color: rgba(142, 238, 238, 0.651); border-radius: 10px; padding: 20px; width: 100%; display: flex; justify-content: space-between;">
         <div style=" max-width: 100%;">
-            <h1 style="color: rgb(14, 126, 190); font-family: 'Oxygen', sans-serif; font-size: 50px;"><strong>Clínica Veterinária PetLândia</strong> </h1>
+            <h1 style="color: rgb(14, 126, 190); font-family: 'Oxygen', sans-serif; font-size: 40px;"><strong>Clínica Veterinária PetLândia</strong> </h1>
             <p style="color: rgb(10, 97, 148); font-size: 20px;"><i> "Onde seu amiguinho está sempre feliz!!!"</i></p>
         </div>            
-        <img src="./assets/logo.jpg" alt="Logo da clinica, cachorro e gato verdes" style="max-width: 150px; height: 150px; border-radius: 50%; " >
+        
     </div>
 </header>
 
-<main style="display: flex; ">
-    <div style="background-color: rgba(142, 203, 238, 0.651); border-radius: 10px; margin: 10px 10px 10px 0; padding: 10px; width: 200px; height: 500px;">
-        <ul class="menu" > <strong>
-            <li> <a href="./index.html" title="Ínicio" target="_blank">INÍCIO</a></li>
-            <li> <a href="./about.html" title="Conheça nossa História" target="_blank">SOBRE</a></li>
-            <li> <a href="./specialties.html" title="Conheça nossas Especialidades" target="_blank">ESPECIALIDADES</a></li>
-            <li> <a href="./contact.html" title="Fale Conosco" target="_blank">FALE CONOSCO</a></li>
+<main style="display: flex;">
+    <div style="background-color: rgba(142, 203, 238, 0.651); border-radius: 10px; margin: 10px 10px 10px 0; padding: 10px; width: 150px; height: 100%;">
+        <ul class="menu" style="list-style-type: none; padding: 0;"> <strong>
+            <li> <a href="./index.html" title="Ínicio">INÍCIO</a></li>
+            <li> <a href="./about.html" title="Conheça nossa História">SOBRE</a></li>
+            <li> <a href="./specialties.html" title="Conheça nossas Especialidades" >ESPECIALIDADES</a></li>
+            <li> <a href="./contact.html" title="Fale Conosco">FALE CONOSCO</a></li>
         </strong>
         </ul>
 
-        <video src="./assets/docDog.mp4" autoplay style="border-radius: 15px; width: 150px; "  alt="Video de cachorro vestido de médico"  a></video>
-    </div>
+        <video src="./assets/docDog.mp4" autoplay style="border-radius: 15px; width: 150px; "  alt="Video de cachorro vestido de médico" title="Video de cachorro vestido de médico"></video>
+    </div>   
 
-    <div >
+    <div style="background-color: rgba(0, 132, 255, 0.082);align-items: center; margin: 10px; border-radius: 10px; padding: 20px 20px 20px 40px;">
         <table style="margin: 10px;">
 
             <colgroup >
@@ -31,21 +32,21 @@
     
             </colgroup>
     
-        <thead >
+        <thead style="line-height: 40px; font-size: 20px;;">
             <tr>
                     <th rowspan="2">NOSSOS HORÁRIOS</th>
                     <th colspan="2" scope="colgroup"> Consultas</th>
                     <th colspan="2" scope="colgroup"> Coleta de Exames</th>
             </tr>
-            <tr>
-                <th scope="col">Abertura</th>
-                <th scope="col">Fechamento</th>
-                <th scope="col">Abertura</th>
-                <th scope="col">Fechamento</th>
+            <tr >
+                <th scope="col" style="padding: 18px;">Abertura</th>
+                <th scope="col"style="padding: 18px;">Fechamento</th>
+                <th scope="col"style="padding: 18px;">Abertura</th>
+                <th scope="col"style="padding: 18px;">Fechamento</th>
             </tr>     
         </thead>
     
-        <tbody>
+        <tbody style="line-height: 40px; font-size: 20px">
             <tr>
                 <th scope="row">Segunda à sexta-feira</th>
                 <th>06:00</th>
@@ -65,9 +66,17 @@
     
         </table>
 
-        <div>
-            <h4>ATENÇÃO:</h4>
-            <P>Atendimentos com especcialidades, somente com horário agendado. Nossos atendimentos de emerêncgia, contam com uma equipe clínica e qualificada, caso seja necessário atendimento com especialidades, agendaremos o mais breve possível.</P>
+       
+     
+
+        <div style="font-family: 'Oxygen'; display: flex;" >
+            <div>
+                <h4>ATENÇÃO:</h4>
+            <p style="line-height: 20px; font-size: 20px">Atendimentos com especcialidades, somente com horário agendado. Nossos atendimentos de emerêncgia, contam com uma equipe clínica e qualificada, caso seja necessário atendimento com especialidades, agendaremos o mais breve possível.</p>
+            </div>
+            <div>
+                <img src="./assets/gatoPreto.jpeg" style="width: 250px; height: 250px; border-radius: 15px;" alt="">
+            </div>
         </div>
     </div>
 
@@ -76,11 +85,19 @@
 </main>
 
 <footer>
-    <div style="max-width: 100%; height: 80px; background-color:rgba(49, 199, 245, 0.644); text-align: center; padding: 20px; font-size: smaller; line-height: 8px;">
-        
-        <p>Clinica Veterinária PetLândia / 2022</p>
-        <p>Copyright. Todos os direitos reservados.</p>
-        <p>Desenvolvido por Cris Morita</p>
+    <div style="max-width: 100%; height: 60px; background-color:rgba(49, 199, 245, 0.644); border-radius: 5px; text-align: center; padding: 20px; font-size: smaller; line-height: 6px; color: rgb(255, 255, 255); display: flex; justify-content: space-around;">
     
-</div>
+        <div>
+            <p>Clinica Veterinária PetLândia / 2022</p>
+            <p>Copyright<sup>©</sup>. Todos os direitos reservados.</p>
+            <p>Desenvolvido por Cris Morita</p>
+        </div>
+
+        <div>
+            <p>Siga nas redes sociais:</p>
+            <a href="https://www.instagram.com/" target=_blank ><img src="./assets/instagram.png" alt="Ícone com link para Instagram"  style="width: 20px; margin: 5px;"></a>  
+            <a href="https://www.facebook.com/" target=_blank><img src="./assets/facebook.png" alt="Ícone com link para Facebook"style="width: 20px; margin: 5px;"></a> 
+            <a href="https://wa.me/11999991234" target=_blank><img src="./assets/whatsapp.png" alt="Ícone com link para WhatsApp" style="width: 20px; margin: 5px;"></a> 
+        </div>
+    </div>
 </footer>
